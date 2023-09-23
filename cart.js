@@ -35,9 +35,11 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+ const summedPrice = cart.reduce((element,index) => {
+    return element + index.price
+ }, 0)
 
-
+console.log (summedPrice)
 //////////////////PROBLEM 2////////////////////
 /*  
     Write a function called `calcFinalPrice` that
@@ -54,9 +56,11 @@ const cart = [
 */
 
 //CODE HERE
-
-
-
+function calcFinalPrice(cartTotal, couponValue, tax) {
+    let totalAftertax = cartTotal + tax;
+    return totalAftertax - couponValue
+}
+console.log(calcFinalPrice)
 //////////////////PROBLEM 3////////////////////
 /*  
     In this problem, you'll create a model for 
@@ -79,6 +83,10 @@ const cart = [
 
 /*
     TEXT ANSWER HERE
+name of customer: this property would be useful to help me determine the names of customers who try to make reservations (string)
+reservation: this reservation property would help me to  if a customer has made a reservation for a certain day (Boolean)
+telephone no: this (string) would enable me contact the customers either via text messages or calls
+payment made: this boolean property would help me determine if the customer has paid for the service
 
 */
 
@@ -88,3 +96,11 @@ const cart = [
 */
 
 //CODE HERE
+let customer = {
+    name: 'Javier Mendes',
+    reservation: true,
+    telephoneno: '691-455-8999',
+    paymentmade: true
+}
+
+console.log(customer)
