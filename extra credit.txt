@@ -1,0 +1,9 @@
+Microsoft Corporation: Microsoft is a multinational technology company known for its operating system, Microsoft Windows, and a wide range of software products, including Microsoft Office, Azure cloud services, and development tools like Visual Studio.
+
+Kaspersky is recognized for its expertise in cybersecurity research and its efforts to combat cyber threats, including viruses, malware, and other forms of cyberattacks.
+
+Catapult is a sports performance analytics company, listed on the Australian Stock Exchange, that provides performance technology to 2970 teams, across 39 sports, in 137 countries. The company is headquartered in Melbourne, Australia.
+
+Kaspersky
+
+Lab uses 69 technology products and services including HTML5 , jQuery , and Google Analytics, according to G2 Stack. Kaspersky Lab is actively using 130 technologies for its website, according to BuiltWith. These include Viewport Meta , IPhone / Mobile Compatible , and LetsEncrypt. Company Tech Stack by G2 Stack Active Products
